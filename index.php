@@ -20,5 +20,8 @@
 	$backup->generate();
 	
 	/* Setar a pasta no ftp com permissao 770 para todos os arquivos e pastas - para não ficar public */
+	
+	/* Cron Config Cpanel */
+	/* 0	0	*	*	*	/usr/local/bin/php /home/namecpanel/public_html/AutoBackupMysql/index.php */
 
 ?>
